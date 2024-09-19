@@ -1,0 +1,10 @@
+command to build docker image : Docker build -t diabetes-pred-api:v1.0 .
+command to see the docker image : docker images
+
+
+REPOSITORY          TAG       IMAGE ID       CREATED         SIZE
+diabetes-pred-api   v1.0      57bfdd76f3d8   3 minutes ago   914MB
+
+
+docker run -d -p 80:80 57bfdd76f3d8
+
